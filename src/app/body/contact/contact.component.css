@@ -1,0 +1,37 @@
+.sk {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.card {
+    width: 70%;
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px !important;
+    margin-bottom: 15px;
+    background-color: #424243 !important;
+}
+
+@media screen and (max-width:700px) {
+    .card {
+        width: 100% !important;
+    }
+    .center {
+        width: 100%;
+    }
+}
+
+.bg {
+    /* background-image: url('../../../assets/1_low.png'); */
+    background-color: black;
+    background-position: center;
+}
