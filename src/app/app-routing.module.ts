@@ -17,6 +17,7 @@ const routes: Routes = [
   { path: 'projects', component: ProjectsComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'education', component: EducationComponent },
+  { path: '**', redirectTo: '' }, // Wildcard route for 404
 ];
 
 @NgModule({
